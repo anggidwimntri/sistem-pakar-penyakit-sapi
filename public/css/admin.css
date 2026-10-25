@@ -1,0 +1,263 @@
+/* =========================================
+   CSS KHUSUS ADMIN PORTAL (DASHBOARD)
+   ========================================= */
+
+    body {
+            background-color: #f4f7f6;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* Top Navbar */
+        .top-navbar {
+            background-color: #ffffff;
+            border-bottom: 1px solid #eaeaea;
+            padding: 12px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1030;
+        }
+        .dinas-title {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: #1a4d2e;
+            margin-bottom: 0;
+        }
+        .admin-portal {
+            font-size: 0.65rem;
+            font-weight: 700;
+            color: #999;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .btn-logout {
+            background-color: #e9ecef;
+            color: #555;
+            border: none;
+            font-weight: 600;
+            font-size: 0.85rem;
+            border-radius: 6px;
+        }
+
+        /* Sidebar Layout */
+        .sidebar {
+            width: 260px;
+            background-color: #ffffff;
+            border-right: 1px solid #eaeaea;
+            position: fixed;
+            top: 70px;
+            bottom: 0;
+            left: 0;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        /* User Profile in Sidebar */
+        .user-profile-box {
+            background-color: #f8fafc;
+            border-radius: 12px;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            border: 1px solid #f1f1f1;
+        }
+        .user-profile-box img {
+            width: 45px;
+            height: 45px;
+            border-radius: 10px;
+            object-fit: cover;
+            margin-right: 12px;
+        }
+        .user-name {
+            font-weight: 700;
+            color: #1a4d2e;
+            font-size: 0.9rem;
+            margin: 0;
+        }
+        .user-role {
+            font-size: 0.7rem;
+            color: #777;
+            margin: 0;
+        }
+
+        /* Sidebar Navigation */
+        .nav-sidebar .nav-link {
+            color: #666;
+            font-weight: 600;
+            padding: 12px 15px;
+            border-radius: 8px;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            transition: all 0.2s;
+        }
+        .nav-sidebar .nav-link i {
+            font-size: 1.1rem;
+            margin-right: 12px;
+            color: #888;
+        }
+        .nav-sidebar .nav-link:hover {
+            background-color: #f8fafc;
+            color: #1a4d2e;
+        }
+        .nav-sidebar .nav-link.active {
+            background-color: #2b5329;
+            color: #ffffff;
+        }
+        .nav-sidebar .nav-link.active i {
+            color: #ffffff;
+        }
+
+        /* Main Content Area */
+        .main-content {
+            margin-left: 260px;
+            margin-top: 70px;
+            padding: 30px 40px;
+        }
+
+        .page-title {
+            color: #1a4d2e;
+            font-weight: 800;
+            margin-bottom: 5px;
+        }
+        .page-subtitle {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+        }
+
+        /* Dashboard Cards */
+        .card-stat {
+            background-color: #ffffff;
+            border-radius: 15px;
+            border: none;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+            padding: 25px;
+            height: 100%;
+        }
+        .icon-box {
+            width: 45px;
+            height: 45px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        .icon-db { background-color: #dcfce7; color: #16a34a; }
+        .icon-var { background-color: #e2e8f0; color: #475569; }
+        .icon-act { background-color: #fce7f3; color: #db2777; }
+        
+        .stat-label-top {
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            float: right;
+            margin-top: 10px;
+        }
+        .stat-number {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #222;
+            margin-bottom: 0;
+            line-height: 1;
+        }
+        .stat-label-bottom {
+            font-size: 0.85rem;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        /* Table Section */
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 40px;
+            margin-bottom: 15px;
+        }
+        .section-header h5 {
+            color: #1a4d2e;
+            font-weight: 700;
+            margin: 0;
+        }
+        .btn-link-custom {
+            color: #2b5329;
+            font-weight: 600;
+            font-size: 0.85rem;
+            text-decoration: none;
+        }
+        
+        .table-custom {
+            background-color: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+        }
+        .table-custom th {
+            background-color: #f8fafc;
+            color: #999;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 15px 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .table-custom td {
+            padding: 15px 20px;
+            color: #444;
+            vertical-align: middle;
+            border-bottom: 1px solid #f1f1f1;
+        }
+
+/* =========================================
+   RESPONSIF SIDEBAR & LAYOUT (MEDIA QUERIES)
+   ========================================= */
+
+@media (max-width: 767.98px) {
+    /* 1. Perkecil Ukuran Sidebar */
+    .sidebar {
+        width: 70px;
+        padding: 15px 8px;
+    }
+
+    /* 2. Sembunyikan Teks Profil & Sesuaikan Foto Profil */
+    .user-profile-box {
+        justify-content: center;
+        padding: 10px 5px;
+    }
+    .user-profile-box img {
+        margin-right: 0;
+    }
+    .user-profile-box div {
+        display: none; /* Menyembunyikan nama & role di layar kecil */
+    }
+
+    /* 3. Sembunyikan Teks Menu (Hanya Menampilkan Ikon) */
+    .nav-sidebar .nav-link span {
+        display: none;
+    }
+    .nav-sidebar .nav-link {
+        justify-content: center;
+        padding: 12px 0;
+    }
+    .nav-sidebar .nav-link i {
+        margin-right: 0; /* Menghilangkan margin kanan ikon */
+        font-size: 1.25rem;
+    }
+
+    /* 4. Geser Main Content agar tidak Tertutup Sidebar */
+    .main-content {
+        margin-left: 70px;
+        padding: 20px 15px;
+    }
+}

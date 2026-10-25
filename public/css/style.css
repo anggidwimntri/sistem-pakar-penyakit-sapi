@@ -1,0 +1,330 @@
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            background-color: #fbfbfb;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        .dinas-title {
+            font-size: 0.8rem;
+            font-weight: 800;
+            letter-spacing: 0.5px;
+            color: #2b5329;
+            text-transform: uppercase;
+        }
+
+
+        .btn-login {
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            color: #555;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+        }
+
+        .btn-login:hover {
+            background-color: #e9ecef;
+            color: #333;
+        }
+
+        /* Styling Hero Section / Background Gambar */
+        .hero-section {
+            /* Ganti 'bg-cows.jpg' dengan nama file gambar aslimu nanti */
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('../images/bg-sapi.png.png') center/cover no-repeat;
+            min-height: calc(100vh - 86px); /* Mengurangi tinggi navbar */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .badge-pakar {
+            background-color: rgba(43, 83, 41, 0.8);
+            color: #90ee90; /* Hijau muda */
+            border: 1px solid #4a7c47;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .hero-heading {
+            font-size: 3.5rem;
+            font-weight: 800;
+            line-height: 1.2;
+        }
+
+        .text-light-green {
+            color: #a3e6a1; /* Meniru warna hijau muda di desain */
+        }
+
+        .hero-subheading {
+            color: #d3d3d3;
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+
+        .btn-mulai {
+            background-color: #2b5329; /* Hijau gelap sesuai desain */
+            color: white;
+            border: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-mulai:hover {
+            background-color: #1e3a1d;
+            color: #a3e6a1;
+        }
+ 
+        /* Navbar */
+        .navbar-custom {
+            background-color: transparent;
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .btn-mulai-diagnosa {
+            background-color: #1a4d2e;
+            color: white;
+            font-weight: 600;
+            border-radius: 20px;
+            padding: 8px 20px;
+            font-size: 0.85rem;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .btn-mulai-diagnosa:hover {
+            background-color: #133a22;
+            color: white;
+        }
+
+        /* Header Judul */
+        .subtitle-hasil {
+            color: #1a4d2e;
+            font-weight: 700;
+            font-size: 0.75rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .title-hasil {
+            font-weight: 800;
+            color: #333;
+            font-size: 2rem;
+        }
+
+        /* Card Laporan Utama */
+        .card-laporan {
+            background-color: #ffffff;
+            border-radius: 15px;
+            border: none;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.04);
+            padding: 30px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .label-text {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: #888;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .peternak-name {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 2px;
+        }
+
+        .badge-sapi {
+            background-color: #dcfce7;
+            color: #166534;
+            font-weight: 700;
+            font-size: 0.75rem;
+            padding: 6px 12px;
+            border-radius: 20px;
+        }
+
+        /* Box Diagnosis Utama (Desain Merah) */
+        .diagnosis-box {
+            background-color: #fef2f2; /* Merah sangat muda */
+            border-left: 5px solid #dc2626; /* Garis tepi merah */
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+        }
+        .diagnosis-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: #dc2626;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            display: block;
+        }
+        .diagnosis-value {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #1a4d2e; /* Hijau gelap sesuai desain */
+            margin: 0;
+        }
+
+        /* Box Statistik CF dan NB */
+        .stat-box {
+            background-color: #f8fafc;
+            border-radius: 10px;
+            padding: 15px;
+            height: 100%;
+        }
+        .stat-value {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #1a4d2e;
+            margin-top: 5px;
+            margin-bottom: 0;
+        }
+
+        /* Tombol Bawah */
+        .action-buttons {
+            margin-top: 30px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .page-title {
+            color: #1a4d2e;
+            font-weight: 800;
+            font-size: 2.5rem;
+        }
+
+        /* Form Container */
+        .form-wrapper {
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.03);
+            padding: 40px;
+        }
+        .section-subtitle {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: #888;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+        .section-title {
+            color: #1a4d2e;
+            font-weight: 700;
+            margin-bottom: 25px;
+        }
+
+        /* Input Styles */
+        .custom-input {
+            background-color: #f4f6f8;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 15px;
+            font-size: 0.95rem;
+            color: #333;
+        }
+        .custom-input:focus {
+            background-color: #eef2f5;
+            box-shadow: none;
+            border: 1px solid #c2d5c1;
+        }
+        .form-label {
+            font-weight: 600;
+            font-size: 0.85rem;
+            color: #555;
+            margin-bottom: 6px;
+        }
+
+        /* Checklist Gejala Styles */
+        .gejala-card {
+            background-color: #f4f6f8;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 12px;
+            transition: all 0.2s ease;
+            border: 1px solid transparent;
+        }
+        .gejala-card:hover {
+            background-color: #eef2f5;
+            border-color: #d1e2d0;
+        }
+        .gejala-title {
+            color: #1a4d2e;
+            font-weight: 700;
+            font-size: 1rem;
+            margin-bottom: 2px;
+        }
+        .gejala-desc {
+            font-size: 0.8rem;
+            color: #777;
+            margin-bottom: 0;
+        }
+        .form-check-input {
+            width: 1.2rem;
+            height: 1.2rem;
+            margin-top: 0.2rem;
+            border-color: #b0c4b1;
+        }
+        .form-check-input:checked {
+            background-color: #1a4d2e;
+            border-color: #1a4d2e;
+        }
+        .select-weight {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            font-size: 0.8rem;
+            color: #555;
+            border-radius: 6px;
+            padding: 4px 8px;
+        }
+
+        /* Button */
+        .btn-submit {
+            background-color: #1a4d2e;
+            color: white;
+            font-weight: 600;
+            border-radius: 8px;
+            padding: 12px 0;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+        }
+        .btn-submit:hover {
+            background-color: #133a22;
+            color: white;
+            box-shadow: 0 4px 12px rgba(26, 77, 46, 0.2);
+        }
+
+/* Styling untuk Teks Menu Navbar */
+.custom-nav-link {
+    color: #555;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.custom-nav-link:hover,
+.custom-nav-link.active {
+    color: #2b5329; /* Berubah jadi hijau gelap saat diarahkan kursor */
+}
+
+
+
+/* Membuat Navbar memiliki posisi relatif sebagai patokan */
+.navbar-custom .container {
+    position: relative;
+}
+
+/* Memaksa menu berada presisi di tengah layar hanya pada tampilan Desktop */
+@media (min-width: 992px) {
+    .center-menu {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
